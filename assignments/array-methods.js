@@ -91,10 +91,34 @@ console.log("$" + ticketPriceTotal);
 // Now that you have used .forEach(), .map(), .filter(), and .reduce().  I want you to think of potential problems you could solve given the data set and the 5k fun run theme.
 // Try to create and then solve 3 unique problems using one or many of the array methods listed above.
 
+
+
 // Problem 1
 //It turns out that some of the runners are actually dogs: Gussy, Fidel and Dollie. Please add for each runner whether the runner is a human or a dog.
+runners.forEach(runner => {
+    if(runner.first_name === "Gussy" || runner.first_name === "Fidel" || runner.first_name === "Dollie") {
+        runner.species = "dog";
+    } else {
+        runner.species = "human";
+    }
+    console.log(runner.species);
+});
 
 
 // Problem 2
+//The runners who ordered an XS shirt are too tiny to run the race. Return an array named  that contains only information about the runners that do not have an XS shirt size.
+
+let noXS = runners.filter(runner => {return !(runner.shirt_size === "XS")});
+
+console.log(noXS);
+
 
 // Problem 3
+//The Lazzy company just merged with the Voolia company.  Convert each instance of the Lazzy company into the Voolia company and return the result.
+runners.forEach(runner => {
+    if (runner.company_name === "Lazzy") {
+        return runner.company_name = "Voolia";
+    }
+});
+
+console.log(runners);
