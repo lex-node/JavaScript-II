@@ -12,13 +12,13 @@ With some basic JavaScript principles in hand, we can now expand our skills out 
 * [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 * [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 * [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [X] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-* [ ] Add your project manager as a reviewer on the pull-request
-* [ ] Your project manager will count the project as complete by merging the branch back into master.
+* [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [X] Add your project manager as a reviewer on the pull-request
+* [X] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Task 2: Higher Order Functions and Callbacks
 
@@ -44,10 +44,10 @@ We have learned that closures allow us to access values in scope that have alrea
 
 **Hint: Utilize debugger statements in your code in combination with your developer tools to easily identify closure values.**
 
-* [ ] Review the contents of the [closure.js](assignments/closure.js) file.  
-* [ ] Complete the problems provided to you but skip over stretch problems until you are complete with every other JS file first.
+* [X] Review the contents of the [closure.js](assignments/closure.js) file.  
+* [X] Complete the problems provided to you but skip over stretch problems until you are complete with every other JS file first.
 
 ## Stretch Goals
 
-* [ ] Go back through the stretch problems that you skipped over and complete as many as you can.
+* [X] Go back through the stretch problems that you skipped over and complete as many as you can.
 * [ ] Look up what an IIFE is in JavaScript and experiment with them
