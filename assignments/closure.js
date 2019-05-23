@@ -1,5 +1,10 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+let villain = "Verbal Kint";
+let villainDeclarer = () => console.log(`I am ${villain}`);
+villainDeclarer();
+villain = "Keyser Soze";
+villainDeclarer();
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
